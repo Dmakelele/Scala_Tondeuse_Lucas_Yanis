@@ -1,5 +1,7 @@
 package Parametrage
-//La position est définit par les coordonnées et l'orientation de la tondeuse.//
+
+//Dans ce programme on définit la classe position par les coordonnées et l'orientation de la tondeuse.//
+
 class Position (val _x:Int, val _y: Int, val _orientation: Orientation.Value) {
 
   var x: Int = _x
